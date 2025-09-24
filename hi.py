@@ -16,8 +16,8 @@ def draw():
     print(mode)
     if mode == 0:
         py5.circle(py5.mouse_x, py5.mouse_y, 10)
-    elif mode == 6:
+    elif mode == 1:
         py5.rect(py5.mouse_x, py5.mouse_y, 10, 100)
-
+    
 
 py5.run_sketch()  
